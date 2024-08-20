@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav a {
+    padding: 5px 30px;
+    background-color: #648BF2;
+    font-size: 25px;
+    margin: 3px;
+    border-radius: 100px;
+    color: #fff;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: #4463b9;
+}
+
+body {
+    padding: 10px 20px;
+    background-color: #fffcfc;
+}
+
+/* Notes */
+
+.create {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 100px;
+    background-color: #658CF3;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.create:hover {
+    background-color: #4a6ed1;
+}
+
+
+.note {
+    color: #fff;
+    border-radius: 21px;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+.note p {
+    color: #ffffffe5;
+}
+
+.button {
+    margin: 3px;
+    padding: 5px 7px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 100px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #ffffffa8;
+}
+
+li {
+    list-style: none;
+}
+
+.blue {
+    background-color: #93BFFE;
+}
+
+.red {
+    background-color: #F8A7AE;
+}
+
+.yellow {
+    background-color: #FCB460;
+}
+
+.pink {
+    background-color: #ECA7F8;
+}
+
+.purple {
+    background-color: #d76ff1;
+}
+
+.green {
+    background-color: #8be98f;
+}
+
+/* Create note */
+
+.form {
+    background-color: #e6e6e6dc;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.form div {
+    margin: 5px;
+}
